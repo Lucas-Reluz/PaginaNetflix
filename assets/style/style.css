@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 :root {
     --vermelho: #E50914;
     --preto: #141414;
@@ -9,29 +11,32 @@
     box-sizing: border-box;
 }
 
+/* part1 */
 body {
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;
+    color: white;
 }
 
-header .container{
+header .container {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.sets{
+.sets {
     margin-left: 5%;
 }
 
-header .logo{
+header .logo {
     color: var(--vermelho);
     font-family: Oswald, helvetica, arial, sans-serif;
     font-size: 30px;
     margin-left: 25px;
+    margin-top: 6px;
 }
 
-header nav a{
+header nav a {
     text-decoration: none;
     color: #AAA;
     margin-right: 10px;
@@ -40,6 +45,28 @@ header nav a{
 
 
 
-header nav a:hover{
+header nav a:hover {
     color: #fff;
+}
+
+/* part1 */
+
+.filmeP {
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/assets/img/vikings_4YsCmAs.jpg');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filmeP .descricao{
+margin-bottom: 40px;
+font-size: 18px;
+}
+
+.titulo{
+    font-size: 40px;
 }
