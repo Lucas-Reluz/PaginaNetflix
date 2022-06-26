@@ -1,0 +1,45 @@
+:root {
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sets{
+    margin-left: 5%;
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: Oswald, helvetica, arial, sans-serif;
+    font-size: 30px;
+    margin-left: 25px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+    transition: all 0.5s;
+}
+
+
+
+header nav a:hover{
+    color: #fff;
+}
